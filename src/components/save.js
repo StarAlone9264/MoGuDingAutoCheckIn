@@ -22,12 +22,12 @@ async function save(axios, planId) {
     country: "中国",
     state: "NORMAL",
     attendanceType: "",
-    address: "天安门广场",
+    address: "西安国家数字出版基地",
     type: type,
-    longitude: "116.404267",
-    city: "北京市",
-    province: "北京市",
-    latitude: "39.910131",
+    longitude: "108.833482",
+    city: "西安市",
+    province: "陕西省",
+    latitude: "34.211335",
   };
   console.log("Type:", type);
   let { data: res } = await axios.request({
